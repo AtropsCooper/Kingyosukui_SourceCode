@@ -1,0 +1,269 @@
+# include <Siv3D/Windows/Resource.hpp>
+
+//////////////////////////////////////////////////////
+//
+//	Siv3D Engine Resources (DO NOT REMOVE)
+//
+//////////////////////////////////////////////////////
+DefineResource(100, ICON, icon.ico)
+
+//
+//	Shaders
+//
+Resource(engine/shader/d3d11/sprite.vs)
+Resource(engine/shader/d3d11/shape.ps)
+Resource(engine/shader/d3d11/square_dot.ps)
+Resource(engine/shader/d3d11/round_dot.ps)
+Resource(engine/shader/d3d11/texture.ps)
+Resource(engine/shader/d3d11/bitmapfont.ps)
+Resource(engine/shader/d3d11/sdffont.ps)
+Resource(engine/shader/d3d11/sdffont_outline.ps)
+Resource(engine/shader/d3d11/sdffont_shadow.ps)
+Resource(engine/shader/d3d11/sdffont_outlineshadow.ps)
+Resource(engine/shader/d3d11/msdffont.ps)
+Resource(engine/shader/d3d11/msdffont_outline.ps)
+Resource(engine/shader/d3d11/msdffont_shadow.ps)
+Resource(engine/shader/d3d11/msdffont_outlineshadow.ps)
+Resource(engine/shader/d3d11/msdfprint.ps)
+Resource(engine/shader/d3d11/fullscreen_triangle.vs)
+Resource(engine/shader/d3d11/fullscreen_triangle.ps)
+Resource(engine/shader/d3d11/forward3d.vs)
+Resource(engine/shader/d3d11/line3d.vs)
+Resource(engine/shader/d3d11/forward3d.ps)
+Resource(engine/shader/d3d11/line3d.ps)
+Resource(engine/shader/d3d11/copy.ps)
+Resource(engine/shader/d3d11/gaussian_blur_9.ps)
+Resource(engine/shader/d3d11/apply_srgb_curve.ps)
+Resource(engine/shader/d3d11/sky.ps)
+Resource(engine/shader/glsl/sprite.vert)
+Resource(engine/shader/glsl/shape.frag)
+Resource(engine/shader/glsl/square_dot.frag)
+Resource(engine/shader/glsl/round_dot.frag)
+Resource(engine/shader/glsl/texture.frag)
+Resource(engine/shader/glsl/bitmapfont.frag)
+Resource(engine/shader/glsl/sdffont.frag)
+Resource(engine/shader/glsl/sdffont_outline.frag)
+Resource(engine/shader/glsl/sdffont_shadow.frag)
+Resource(engine/shader/glsl/sdffont_outlineshadow.frag)
+Resource(engine/shader/glsl/msdffont.frag)
+Resource(engine/shader/glsl/msdffont_outline.frag)
+Resource(engine/shader/glsl/msdffont_shadow.frag)
+Resource(engine/shader/glsl/msdffont_outlineshadow.frag)
+Resource(engine/shader/glsl/msdfprint.frag)
+Resource(engine/shader/glsl/fullscreen_triangle.vert)
+Resource(engine/shader/glsl/fullscreen_triangle.frag)
+Resource(engine/shader/glsl/forward3d.vert)
+Resource(engine/shader/glsl/line3d.vert)
+Resource(engine/shader/glsl/forward3d.frag)
+Resource(engine/shader/glsl/line3d.frag)
+Resource(engine/shader/glsl/copy.frag)
+Resource(engine/shader/glsl/gaussian_blur_9.frag)
+Resource(engine/shader/glsl/apply_srgb_curve.frag)
+Resource(engine/shader/glsl/sky.frag)
+
+//
+//	Fonts
+//
+Resource(engine/font/min/siv3d-min.woff)
+
+//
+//	Box-shadow Textures
+//
+Resource(engine/texture/box-shadow/256.png)
+Resource(engine/texture/box-shadow/128.png)
+Resource(engine/texture/box-shadow/64.png)
+Resource(engine/texture/box-shadow/32.png)
+Resource(engine/texture/box-shadow/16.png)
+Resource(engine/texture/box-shadow/8.png)
+
+//////////////////////////////////////////////////////
+//
+//	Siv3D Engine Optional Resources (Can be removed if not required)
+//
+//////////////////////////////////////////////////////
+
+//
+//	Fonts
+//
+Resource(engine/font/mplus/mplus-1p-thin.ttf.zstdcmp)
+Resource(engine/font/mplus/mplus-1p-light.ttf.zstdcmp)
+Resource(engine/font/mplus/mplus-1p-regular.ttf.zstdcmp)
+Resource(engine/font/mplus/mplus-1p-medium.ttf.zstdcmp)
+Resource(engine/font/mplus/mplus-1p-bold.ttf.zstdcmp)
+Resource(engine/font/mplus/mplus-1p-heavy.ttf.zstdcmp)
+Resource(engine/font/mplus/mplus-1p-black.ttf.zstdcmp)
+Resource(engine/font/noto-cjk/NotoSansCJK-Regular.ttc.zstdcmp)
+//Resource(engine/font/noto-cjk/NotoSansJP-Regular.otf.zstdcmp)
+
+//
+//	Emoji Fonts
+//
+Resource(engine/font/noto-emoji/NotoColorEmoji.ttf.zstdcmp)
+Resource(engine/font/noto-emoji/NotoEmoji-Regular.ttf.zstdcmp)
+
+//
+//	Icons
+//
+Resource(engine/font/fontawesome/fontawesome-brands.otf.zstdcmp)
+Resource(engine/font/fontawesome/fontawesome-solid.otf.zstdcmp)
+Resource(engine/font/materialdesignicons/materialdesignicons-webfont.ttf.zstdcmp)
+
+//
+//	Sound Font
+//
+Resource(engine/soundfont/GMGSx.sf2.zstdcmp)
+
+//////////////////////////////////////////////////////
+//
+//	Siv3D App Resources (Your application resources here)
+//
+//////////////////////////////////////////////////////
+
+// BackGround
+Resource(resources/BG/Clouds.png)
+Resource(resources/BG/Sands.png)
+Resource(resources/BG/Sky.png)
+Resource(resources/BG/Sea/SeaWave-Animation1.png)
+Resource(resources/BG/Sea/SeaWave-Animation2.png)
+Resource(resources/BG/Sea/SeaWave-Animation3.png)
+Resource(resources/BG/Sea/SeaWave-Animation4.png)
+Resource(resources/BG/Sea/SeaWave-Animation5.png)
+Resource(resources/BG/Sea/SeaWave-Animation6.png)
+
+// Water Splash
+Resource(resources/BG/Splash/Splash-Animation1.png)
+Resource(resources/BG/Splash/Splash-Animation2.png)
+Resource(resources/BG/Splash/Splash-Animation3.png)
+Resource(resources/BG/Splash/Splash-Animation4.png)
+
+
+// Ship
+Resource(resources/Character/Boat.png)
+Resource(resources/Character/Sail.png)
+Resource(resources/Character/Cloth.png)
+Resource(resources/Character/Character.png)
+Resource(resources/Character/Arm.png)
+Resource(resources/Character/Hand.png)
+
+// Fish
+Resource(resources/Fish/Marlin.png)
+Resource(resources/Fish/TinFish.png)
+Resource(resources/Fish/GoldFish.png)
+Resource(resources/Fish/Crab.png)
+
+
+// PufferFish
+Resource(resources/Fish/PufferFish/PufferFish-Animation1.png)
+Resource(resources/Fish/PufferFish/PufferFish-Animation2.png)
+Resource(resources/Fish/PufferFish/PufferFish-Animation3.png)
+Resource(resources/Fish/PufferFish/PufferFish-Animation4.png)
+Resource(resources/Fish/PufferFish/PufferFish-Animation5.png)
+
+//Bird Fire
+Resource(resources/Bird/Bird-Attack1.png)
+Resource(resources/Bird/Bird-Attack2.png)
+Resource(resources/Bird/Bird-Attack3.png)
+Resource(resources/Bird/Bird-Attack4.png)
+Resource(resources/Bird/Bird-Attack5.png)
+Resource(resources/Bird/Bird-Idle3.png)
+Resource(resources/Bird/Bird-Idle4.png)
+Resource(resources/Bird/Bird-Winging1.png)
+Resource(resources/Bird/Bird-Winging2.png)
+Resource(resources/Bird/Bird-Winging3.png)
+Resource(resources/Bird/Bird-Winging4.png)
+Resource(resources/Bird/Bird-Winging5.png)
+
+// Bird Laser
+Resource(resources/Bird2/Bird2-Charge1.png)
+Resource(resources/Bird2/Bird2-Charge2.png)
+Resource(resources/Bird2/Bird2-Charge3.png)
+Resource(resources/Bird2/Bird2-Charge4.png)
+Resource(resources/Bird2/Bird2-Charge5.png)
+Resource(resources/Bird2/Bird2-Charge6.png)
+Resource(resources/Bird2/Bird2-Charge7.png)
+Resource(resources/Bird2/Bird2-Charge8.png)
+Resource(resources/Bird2/Bird2-Charge9.png)
+Resource(resources/Bird2/Bird2-Charge10.png)
+Resource(resources/Bird2/Bird2-Idle1.png)
+Resource(resources/Bird2/Bird2-Idle2.png)
+Resource(resources/Bird2/Bird2-Idle3.png)
+Resource(resources/Bird2/Bird2-Idle4.png)
+Resource(resources/Bird2/Bird2-Idle5.png)
+Resource(resources/Bird2/Bird2-Laser1.png)
+Resource(resources/Bird2/Bird2-Laser2.png)
+Resource(resources/Bird2/Bird2-Laser3.png)
+Resource(resources/Bird2/Bird2-Laser4.png)
+
+// FireBall
+Resource(resources/hit1.png)
+Resource(resources/hit2.png)
+Resource(resources/hit3.png)
+Resource(resources/hit4.png)
+Resource(resources/FireBall.png)
+
+
+// Boss
+Resource(resources/bullets.png)
+Resource(resources/Boss/BirdBoss-Flying-Animation1.png)
+Resource(resources/Boss/BirdBoss-Flying-Animation2.png)
+Resource(resources/Boss/BirdBoss-Flying-Animation3.png)
+Resource(resources/Boss/BirdBoss-Flying-Animation4.png)
+Resource(resources/Boss/BirdBoss-Flying-Animation5.png)
+Resource(resources/Boss/BirdBoss-Idle.png)
+
+// UI
+Resource(resources/UI/Upgrade/NoteBook.png)
+Resource(resources/UI/Upgrade/ChoiceButton.png)
+Resource(resources/UI/Upgrade/ChoiceButton-Selected.png)
+Resource(resources/UI/Title.png)
+Resource(resources/UI/TitleButtonOn.png)
+Resource(resources/UI/TitleButtonOff.png)
+Resource(resources/UI/EndScene/EndSceneOn.png)
+Resource(resources/UI/EndScene/EndSceneOff.png)
+
+// Icon
+Resource(resources/UI/Icon/BiggerHand.png)
+Resource(resources/UI/Icon/FishBait.png)
+Resource(resources/UI/Icon/HandSpeedUp.png)
+Resource(resources/UI/Icon/HPRecovery.png)
+Resource(resources/UI/Icon/HpRecoverySpeedUp.png)
+Resource(resources/UI/Icon/MaxHPUp.png)
+Resource(resources/UI/Icon/PowerDown.png)
+Resource(resources/UI/Icon/PowerUp.png)
+
+// Font
+Resource(resources/font.ttf)
+
+// SFX
+Resource(resources/SFX/charge.wav)
+Resource(resources/SFX/enemy_vanish.wav)
+Resource(resources/SFX/fire.mp3)
+Resource(resources/SFX/hurt.mp3)
+Resource(resources/SFX/kingyo.wav)
+Resource(resources/SFX/launch.mp3)
+Resource(resources/SFX/lazer01.wav)
+Resource(resources/SFX/levelup.mp3)
+Resource(resources/SFX/nep00.wav)
+Resource(resources/SFX/tnt.mp3)
+Resource(resources/SFX/waves.mp3)
+Resource(resources/SFX/get.mp3)
+Resource(resources/SFX/firework_explode4.mp3)
+
+
+/* examples 
+
+	//
+	// Define your resource path inside `Resource()` macro.
+	// No double quotation marks and white spaces may appear.
+	//
+	Resource(example/siv3d-kun.png)		// ok
+	Resource(example/windmill.png)		// ok
+	Resource(assets/a b c.txt)			// error: contains white spaces
+	Resource("example/windmill.png")	// error: contains double quotation marks
+
+	//
+	// If your file contains a white space, define the identifier without using Resource() macro.
+	//
+	MYIDENTIFIER_1 FILE "assets/a b c.txt"
+	MYIDENTIFIER_2 FILE "level 1/map.dat"
+*/
